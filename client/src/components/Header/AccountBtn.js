@@ -1,18 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-const SignUpBtn = () => {
+const AccountBtn = () => {
   return (
     <Wrapper>
-      <Link to="/signupform">
-        <Button>Sign Up</Button>
+      <Link to="/profile">
+        <Button>Account</Button>
       </Link>
     </Wrapper>
   );
 };
 
-export default SignUpBtn;
+export default AccountBtn;
 
 const Wrapper = styled.div``;
 const Button = styled.button`

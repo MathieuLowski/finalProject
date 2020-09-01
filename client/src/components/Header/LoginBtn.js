@@ -2,19 +2,20 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-const SignUpBtn = () => {
+const LoginBtn = () => {
   return (
     <Wrapper>
-      <Link to="/signupform">
-        <Button>Sign Up</Button>
+      <Link to="/loginform">
+        <Button>Login</Button>
       </Link>
     </Wrapper>
   );
 };
 
-export default SignUpBtn;
+export default LoginBtn;
 
 const Wrapper = styled.div``;
+
 const Button = styled.button`
   font-size: 20px;
   color: #ffd166;
